@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+
 :root {
     --primary: #1E60AA;
     --secondary: #FF4917;
@@ -47,7 +47,7 @@
     color: #FFFFFF;
 }
 
-.btn-square {
+/* .btn-square {
     width: 38px;
     height: 38px;
 }
@@ -70,7 +70,7 @@
     align-items: center;
     justify-content: center;
     font-weight: normal;
-}
+} */
 
 
 /*** Navbar ***/
@@ -257,7 +257,9 @@
 .service-item-top img {
     transition: .5s;
 }
-
+.service-card{
+    min-height: 400px;
+}
 .service-item-top:hover img {
     transform: scale(1.1);
 }
